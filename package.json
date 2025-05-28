@@ -1,6 +1,6 @@
 {
   "name": "com.le0der.singleton",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "displayName": "Singleton Tools",
   "description": "A collection of Singleton implementations for Unity, including MonoBehaviour and regular Singleton patterns.",
   "unity": "2022.3",
