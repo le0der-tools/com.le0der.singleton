@@ -1,4 +1,4 @@
-namespace Le0der.Toolkits
+namespace Le0der.Toolkits.Singleton
 {
     public class Singleton<T> where T : class, new()
     {
