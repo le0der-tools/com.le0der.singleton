@@ -16,5 +16,12 @@
     "tools",
     "unity"
   ],
-  "license": "MIT"
+  "license": "Apache-2.0",
+  "licensesUrl": "https://github.com/le0der-tools/com.le0der.singleton?tab=Apache-2.0-1-ov-file",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/le0der-tools/com.le0der.singleton.git"
+  },
+  "documentationUrl": "https://github.com/le0der-tools/com.le0der.singleton.git",
+  "changelogUrl": "https://github.com/le0der-tools/com.le0der.singleton/blob/main/CHANGELOG.md"
 }
