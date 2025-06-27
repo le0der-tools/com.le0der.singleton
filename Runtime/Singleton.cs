@@ -1,10 +1,11 @@
 namespace Le0der.Toolkits.Singleton
 {
-    public class Singleton<T> where T : class, new()
+    public abstract class Singleton<T> where T : class, new()
     {
         private static T _instance;
         private static readonly object _lock = new object();
 
+        // 获取单例实例
         public static T Instance
         {
             get
@@ -15,12 +16,12 @@ namespace Le0der.Toolkits.Singleton
                     {
                         _instance = new T();
                     }
-                    return _instance;
                 }
+                return _instance;
             }
         }
 
-        // Private constructor to prevent instantiation from outside
-        private Singleton() { }
+        // 保护构造函数，防止外部实例化
+        protected Singleton() { }
     }
 }
